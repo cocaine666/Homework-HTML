@@ -1,0 +1,75 @@
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1170px;
+  }
+/* blog homework start */
+.blog-container {
+    width: 47%;
+    padding: 0 15px;
+}
+
+  @media screen and (max-width: 425px) {
+    .blog-container {
+      width: 100%;
+    }
+  }
+  #blog article {
+    margin-bottom: 50px;
+  }
+  #blog figure {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    line-height: 0;
+    border-radius: 4px;
+  }
+  #blog figure a {
+    display: block;
+  }
+  #blog figure a img {
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    display: block;
+  }
+  #blog figure:hover a img {
+    transform: scale(1.1);
+  }
+  #blog .blogdate {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    line-height: 2;
+    color: #fff;
+    background: #daa520;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #blog .blogdate span {
+    display: block;
+  }
+  #blog article h4 {
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 24px 0 12px;
+    transition: color 0.3s;
+  }
+  #blog article h4:hover {
+    color: #daa520;
+  }
+  .allposts {
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+
+  /* blog homework end */
+  
